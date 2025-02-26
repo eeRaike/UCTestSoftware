@@ -1,23 +1,28 @@
 
-Teste 1: 
+
+ID CT001
+
 Descrição: Valores que resultam em um valor final abaixo de 100
 Objetivo: Verificar se o desconto está sendo a aplicado a valores abaixo do valor definido(100)
 Saída esperada: Valores abaixo do valor definido(100) não recebem o desconto.
 Resultado: Funcionando devidamente, o desconto não é aplicado.
 
-Teste 2: 
+ID CT002
+
 Descrição: Testar inserção de valores negativos
 Objetivo: Verificar se um produto pode ser adicionado com um Valor ou Quantidade abaixo de 0
 Saída esperada: Itens com Valor ou Quantidade abaixo de 0 não entrarão na lista
 Resultado: Funcionando devidamente, os itens não são adicionados
 
-Teste 3: 
+ID CT003
+
 Descrição: Listar produtos com a lista vazia
 Objetivo: Verificar se a função de listagem de itens pode ser executada com a lista vazia, e se isso causa erros
 Saída esperada: A lista não é executada e sem erros.
 Resultado: A função da lista é executada mas sem mostrar nenhum dos itens, também não causa erros
 
-Teste 4: 
+ID CT004
+
 Descrição: Desconto é aplicado corretamente em valores acima do valor definido(100)
 Objetivo: Verificar se o desconto é aplicado devidamente
 Saída esperada: Apenas valores acima de 100 recebem desconto
