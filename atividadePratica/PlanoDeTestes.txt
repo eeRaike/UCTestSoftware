@@ -1,0 +1,7 @@
+
+Teste 1: Valores que resultam em um valor 
+final abaixo de 100
+
+Teste 2: Valores negativos
+
+Teste 3: Listar produtos com a lista vazia
