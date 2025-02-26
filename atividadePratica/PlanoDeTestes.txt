@@ -5,3 +5,5 @@ final abaixo de 100
 Teste 2: Valores negativos
 
 Teste 3: Listar produtos com a lista vazia
+
+Teste 4: Checar se o desconto é aplicado devidamente
