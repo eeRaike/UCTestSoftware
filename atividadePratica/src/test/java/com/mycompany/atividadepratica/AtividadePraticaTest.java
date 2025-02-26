@@ -64,6 +64,20 @@ public class AtividadePraticaTest {
     
     
     }
+
+
+    @Test
+    @DisplayName("checar se o desconto é aplicado")
+    public void test4(){
+
+    op.addProduto(5, 10);
+    op.addProduto(5, 10);
+    op.addProduto(6, 10);
+    op.listProduto();
+        System.out.println(op.applyDesconto());
+    assertEquals(144.0, op.applyDesconto());
+    
+    }
     
     
     
